@@ -15,7 +15,7 @@ const CommentCreate = ({ postId }) => {
   return (
     <div>
       <form onSubmit={onSubmit}>
-        <div className="md-3">
+        <div className="mb-3">
           <label htmlFor="new-comment-content" className="form-label">
             Comment
           </label>
